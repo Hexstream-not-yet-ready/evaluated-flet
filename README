@@ -1,0 +1,12 @@
+Project's (eventual) home: http://www.hexstreamsoft.com/libraries/evaluated-flet/
+
+
+Provides alternatives to FLET and FLET* that behave analogously to LET
+and LET* except they bind values in the function namespace. Intended
+to reduce conceptual differences between lexical binding of variables
+and functions. Makes functional programming more natural in some
+cases.
+
+
+This library is in the Public Domain.
+See the UNLICENSE file for details.
