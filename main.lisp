@@ -81,7 +81,7 @@ arguments when given."
 		(cdr declaration)))
 	  (t (push declaration other-declarations)))))))
 
-(defun flet*-undefined (name)
+(defun eflet*-undefined (name)
   (lambda (&rest args)
     (error "Tried to call undefined ~S function ~S with args ~S"
 	   'eflet* name args)))
